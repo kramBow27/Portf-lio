@@ -165,6 +165,7 @@ h1 {
   width: 100vw;
   background-color: black;
   color: #fff;
+  zoom: 0.6;
 }
 
 .portfolio-heading {
