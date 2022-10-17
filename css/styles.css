@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  zoom: 0.85;
 }
 
 .wrapper {
@@ -312,10 +313,28 @@ h1 {
   margin: 1em;
 }
 
-.card__img {
+.card__img3 {
   width: 100%;
   height: 150px;
   background-image: url(../img/2-original.png);
+  background-size: cover;
+}
+.card__img2 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/youtube.png);
+  background-size: cover;
+}
+.card__img1 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/antiSocial.jpg);
+  background-size: cover;
+}
+.card__img {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/portfolio.png);
   background-size: cover;
 }
 
@@ -438,4 +457,19 @@ h1 {
 
 .contact-heading span {
   font-size: 70px;
+}
+
+i {
+  background-color: transparent;
+  color: black;
+}
+
+.card i {
+  background-color: transparent;
+  color: white;
+}
+
+.fa-whatsapp {
+  background-color: transparent;
+  color: white;
 }
