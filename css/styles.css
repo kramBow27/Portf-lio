@@ -448,6 +448,10 @@ h1 {
   text-align: center;
 }
 
+.footer-content h2 h5 {
+  zoom: 0.6;
+}
+
 .sotial-networks {
   display: flex;
   justify-content: space-evenly;
@@ -487,4 +491,8 @@ i {
 .fa-whatsapp {
   background-color: transparent;
   color: white;
+}
+
+.container {
+  zoom: 0.7;
 }
